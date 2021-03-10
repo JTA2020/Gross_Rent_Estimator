@@ -2,9 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.inputContainer {
+  height: 100vmin;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -13,15 +12,15 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.centerForm {
+  position: relative;
+  top: 15vh;
+  align-self: center;
+  left: 18vw;
+}
+
+.exampleText {
+  z-index: 999;
 }
 
 .App-link {
